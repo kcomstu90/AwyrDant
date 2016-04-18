@@ -1,0 +1,150 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: dwarven;
+	src: url("../font/DWARVESC.TTF");
+}
+
+html {
+	font-family: "times new roman"
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../images/mountain2.png") no-repeat center center fixed;
+	-webkit-background-size: cover;*/
+	-moz-background-size: cover; */
+	-o-background-size: cover;*/
+	background-size: cover;*/
+}
+
+a:link, a:visited{
+	color:#1A6C87;
+}
+
+body {
+	height: 76%;
+	margin: 0;
+}
+
+.container {
+	position: relative;
+}
+
+nav {
+	background-color: ;
+	opacity: ;
+	position: absolute;
+	width: 230px;
+	height: 100%;
+	padding-left:20px;
+	padding-top: 135px;
+	min-width: 230px;
+	max-width:25%;
+}
+
+aside {
+	background-color: ;
+	float: right;
+	height: 100%;
+	padding-left:20px;
+	padding-top: 135px;
+	min-width: 230px;
+	max-width:230px;
+}
+
+nav h2, aside h2 {
+	text-align: center;
+	padding-top:;
+	padding-bottom: 12px;
+	font-variant: small-caps;
+	font-family: dwarven;
+	font-size: 28px;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+header {
+	color: #black;
+	font-variant: small-caps;
+	font-family: dwarven;
+	font-size: 45px;
+    text-align: center;
+	margin-left: 250px;
+	margin-right:250px;
+	min-width: 25%;
+	max-width: 100%;
+	max-height: 75%;
+	padding: 25px 0px 25px 0px;
+}
+.chapters {
+	font-size: 55px;
+	font-variant: small-caps;
+	font-family: dwarven;
+	text-align: center;
+}
+
+section 
+{	margin-left: 250px;
+	margin-right: 250px;
+	padding: 0px 35px 0px 35px;
+	font-size: 19px;
+	color: black;
+	min-width: 50%;
+	max-width: 75%;
+	max-height: 75%;
+}
+
+.main {
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color:;
+	opacity:;
+}
+
+.journal {
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer {
+	padding-bottom: 30px;
+	padding-top:30px;
+	background-color: ;
+
+}
+.footer h2 {
+	font-variant: small-caps;
+	font-family: dwarven;
+	font-size: 28px;
+}
+section h2 {
+	text-align: center;
+	color: black;
+}
+
+.glossary h2{
+	text-align:left;
+	font-variant: small-caps;
+	font-family: dwarven;
+	font-size: 28px;
+}
+
+.highlights{
+	text-align: left;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+li {
+	bullets:none;
+}
